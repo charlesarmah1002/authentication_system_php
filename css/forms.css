@@ -1,0 +1,110 @@
+/* fonts */
+@font-face {
+    font-family: montserrat;
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../assets/login-wallpaper.jpeg) no-repeat #00000040;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: white;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: montserrat, sans-serif;
+}
+
+.form-field {
+    background: #f4f1f640;
+    backdrop-filter: blur(9px);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.field {
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    overflow: hidden;
+    /* border-radius: 6px; */
+    /* background: black; */
+    border-bottom: 2px solid;
+    padding: 5px;
+}
+
+.field input, select {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: montserrat, sans-serif;
+}
+
+option {
+    color: black;
+}
+
+::placeholder {
+    opacity: 1;
+}
+
+input[type=submit]{
+    /* margin: auto; */
+    width: 150px;
+    height: 30px;
+    background: #0cbd0c;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;
+}
+
+p.errormsg {
+    color: red;
+    margin: 5px;
+    /* height: 30px; */
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: inherit;
+}
+
+hr {
+    color: white;
+    width: 150px;
+    margin: 4px;
+    border: 2px solid;
+}
