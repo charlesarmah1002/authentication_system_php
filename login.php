@@ -51,8 +51,7 @@ if (isset($_POST['login'])) {
 </head>
 <body>
 <div class="form-field">
-        <h1 class="form-title">Log In</h1>
-        <hr>
+        <h1 class="form-title">Log In</h1>                                                              
         <p class="errormsg">
             <?= $errormsg; ?>
         </p>
